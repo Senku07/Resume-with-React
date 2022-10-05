@@ -1,0 +1,59 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background: linear-gradient(to right, rgba(47, 238, 242, 0.1) , rgba(255, 192, 203,0.2) );  
+  background-color: rgb(54, 31, 31);
+}
+
+.main{
+  display: flex;
+  /* background-color: rgb(84, 240, 240); */
+  margin: 1rem;
+  padding: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.imgContainer{
+  display: flex;
+  margin: 1rem;
+  justify-items: flex-end;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+
+}
+
+.aboutMe{
+  display: flex;
+  background-color: rgb(87, 102, 241,0.9);
+  margin: 2rem;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  background-color: rgb(37, 39, 38);
+  justify-content: space-evenly;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.about , .contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
